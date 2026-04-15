@@ -49,12 +49,14 @@ The application is structured using the following main components:
 ---
 
 ## Project Structure (Planned)
+
+```text
 src/
-├── Task.java
-├── TaskManager.java
-├── GuiTaskTracker.java
-├── TaskPriority.java
-└── Main.java
+ ├── Task.java
+ ├── TaskManager.java
+ ├── GuiTaskTracker.java
+ ├── TaskPriority.java
+ └── Main.java
 
 ---
 
