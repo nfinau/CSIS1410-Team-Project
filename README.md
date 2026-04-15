@@ -52,6 +52,11 @@ The application is structured using the following main components:
 
 ---
 
+## Documentation
+Additional project documentation can be found in the [`docs`](docs) folder.
+
+---
+
 ## Project Structure (Planned)
 
 ```text
