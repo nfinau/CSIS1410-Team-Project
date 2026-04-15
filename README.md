@@ -38,6 +38,10 @@ The application is structured using the following main components:
     - LOW
     - MEDIUM
     - HIGH
+    - 
+## UML Diagram
+
+![UML Diagram](docs/student_task_tracker_UML_diagram.png)
 
 ---
 
