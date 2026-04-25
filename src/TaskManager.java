@@ -12,7 +12,8 @@ public class TaskManager {
     }
 
     public ArrayList<Task> getAllTasks() {
-    return taskList;
+        // Added to support GUI display (used by GuiTaskTracker to retrieve all tasks)
+        return taskList;
     }
 
     public Task newTask(String title, String description, TaskPriority priority, boolean isComplete) {
