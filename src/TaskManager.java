@@ -11,6 +11,10 @@ public class TaskManager {
         return taskList;
     }
 
+    public ArrayList<Task> getAllTasks() {
+    return taskList;
+    }
+
     public Task newTask(String title, String description, TaskPriority priority, boolean isComplete) {
         int newId = taskList.size() + 1;
         Task task = new Task(title, description, priority, isComplete, newId);
