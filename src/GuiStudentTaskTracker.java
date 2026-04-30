@@ -56,7 +56,7 @@ public class GuiStudentTaskTracker extends JFrame {
 	public GuiStudentTaskTracker() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
-		Set<String> filterSet = Set.of("All", "Low Priority", "Medium Priority", "High Priority", "Complete");
+		Set<String> filterSet = Set.of("All", "Low", "Medium Priority", "High Priority", "Complete");
 		Set<String> prioritySet = Set.of("Low", "Medium", "High"); // Change to use priority enum
 		
 		
