@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class GuiTaskTracker {
+import javax.swing.JFrame;
+
+
+public class GuiTaskTracker extends JFrame{
     private TaskManager taskManager;
     private Scanner scanner;
 
