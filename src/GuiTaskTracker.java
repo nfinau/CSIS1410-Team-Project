@@ -3,10 +3,40 @@ import java.util.Scanner;
 
 import javax.swing.JFrame;
 
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+import java.awt.Font;
+import java.util.Set;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import java.awt.Color;
+import java.awt.Dimension;
+
+import javax.swing.border.MatteBorder;
+import java.awt.GridLayout;
+import java.awt.CardLayout;
+import javax.swing.border.EtchedBorder;
+import java.awt.Insets;
+import javax.swing.JTextField;
+import javax.swing.JTextArea;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JScrollPane;
+
 
 public class GuiTaskTracker extends JFrame{
     private TaskManager taskManager;
     private Scanner scanner;
+	private JPanel contentPane;
+	private JTextField textTaskTitle;
 
     public GuiTaskTracker(TaskManager taskManager) {
         this.taskManager = taskManager;
